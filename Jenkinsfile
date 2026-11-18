@@ -13,7 +13,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 checkout scm
-                echo 'Code checked out from GitHub'
+                echo 'Code checked out from GitHub!'
             }
         }
         stage('Build') {
